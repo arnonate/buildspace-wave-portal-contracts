@@ -12,4 +12,12 @@ npx hardhat test
 npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
+
+yarn run hardhat accounts
+yarn hardhat compile
+yarn hardhat test
+yarn hardhat node
+yarn hardhat run scripts/run.js
+yarn hardhat run scripts/deploy.js --network localhost
+yarn hardhat run scripts/deploy.js --network rinkeby
 ```
